@@ -56,8 +56,8 @@ try {
     
    if($messageErr[$key]==""){
     $stmt->execute();
-    header("Location:contact.php");
     $message= "The form was submmited successfully";
+       $firstname=$lastname=$phone=$email=$comment= "";
                           
                   }             
        }
